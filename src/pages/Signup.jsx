@@ -12,12 +12,15 @@ export function Signup({ signInUser }) {
   });
   const formik = useFormik({
     onSubmit: async (values) => {
-      const { data } = await axios.post("http://localhost:4000/signup", {
-        name: values.name,
-        username: values.email,
-        email: values.email,
-        password: values.password,
-      });
+      const { data } = await axios.post(
+        `${import.meta.env.VITE_API_HOST}/signup`,
+        {
+          name: values.name,
+          username: values.email,
+          email: values.email,
+          password: values.password,
+        }
+      );
       signInUser(data);
     },
     validationSchema,

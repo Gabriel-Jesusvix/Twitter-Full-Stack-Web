@@ -10,12 +10,15 @@ export function Login({ signInUser }) {
   });
   const formik = useFormik({
     onSubmit: async (values) => {
-      const { data } = await axios.get("http://localhost:4000/login", {
-        auth: {
-          username: values.email,
-          password: values.password,
-        },
-      });
+      const { data } = await axios.get(
+        `${import.meta.env.VITE_API_HOST}/login`,
+        {
+          auth: {
+            username: values.email,
+            password: values.password,
+          },
+        }
+      );
       signInUser(data);
     },
     validationSchema,
@@ -49,7 +52,7 @@ export function Login({ signInUser }) {
           </div>
           <div className="space-y-2">
             <Input
-              type="text"
+              type="password"
               name="password"
               placeholder="Senha"
               value={formik.values.password}
