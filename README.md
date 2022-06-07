@@ -14,6 +14,12 @@ Para fazer o deploy desse projeto rode
 ```
 
 
+## Demonstração
+
+- Acesse a URL para uma Demonstração: 
+- https://twitter-full-stack-web.vercel.app/
+
+
 ## Documentação da API
 
 #### return all  tweets
@@ -75,7 +81,7 @@ Para fazer o deploy desse projeto rode
 
 ## Stack utilizada
 
-**Front-end:** ReactJS, TailwindCSS
+**Front-end:** ReactJS, TailwindCSS, ViteJS
 
 **Back-end:** Node, Prisma, KOA, Vercel, PlanetScale, 
 
