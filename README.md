@@ -88,7 +88,7 @@ Para fazer o deploy desse projeto rode
 
 ## Screenshots
 
-![App Screenshot](https://via.p![Captura de Tela 2022-06-06 às 21 38 14](https://user-images.githubusercontent.com/62946928/172271716-8571c4f4-d5cb-4edf-8edc-13efa67758a7.png)
+![Captura de Tela 2022-06-06 às 21 40 13](https://user-images.githubusercontent.com/62946928/172271891-1647dc0e-1fb0-4491-b6ab-168ea382bdfd.png)
 
 ![Captura de Tela 2022-06-06 às 21 38 44](https://user-images.githubusercontent.com/62946928/172271764-c7e3faa4-d751-4174-b64f-f464458b3612.png)
 
